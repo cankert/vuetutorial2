@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="main-nav">
     <h2>Menu</h2>
     <ul>
       <li>
@@ -24,16 +24,16 @@ export default {
 };
 </script>
 
-<style>
-nav {
+<style >
+nav.main-nav {
   text-align: center;
 }
 
-nav ul {
+nav.main-nav ul {
   padding: 0;
 }
 
-nav li {
+nav.main-nav li {
   display: inline;
   list-style-type: none;
   margin: 0;
